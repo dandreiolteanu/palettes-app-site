@@ -38,7 +38,7 @@ function PrivacyPolicyText({ description, lang, meta, keywords, title }) {
                   </p> <div><p>
                       Link to privacy policy of third party service providers
                       used by the app
-                    </p> <ul><li><a href="https://privacy.oath.com" target="_blank">Flurry Analytics</a></li></ul></div> <p><strong>Log Data</strong></p> <p>
+                    </p> <ul><li><a href="https://privacy.oath.com" target="_blank" rel="noopener noreferrer">Flurry Analytics</a></li></ul></div> <p><strong>Log Data</strong></p> <p>
                     I want to inform you that whenever
                     you use my Service, in a case of an error in the
                     app I collect data and information (through third
