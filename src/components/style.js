@@ -532,4 +532,36 @@ export default createGlobalStyle`
   .hidden {
     display: none;
   }
+
+  .privacyPolicy {
+    grid-area: p; 
+    color: black
+    line-height: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .privacyPolicy h1 {
+    margin-top: 40px;
+    margin-bottom:30px;
+  }
+  .privacyPolicy p {
+    margin-top: 10px;
+    margin-bottom:30px;
+  }
+  .privacyPolicy ul {
+    margin-top: 10px;
+    margin-bottom:30px;
+    margin-left: 30px
+  }
+  .privacyPage {
+    display: block;
+    grid-template-areas: "h h h h h h h h h h h h" "p p p p p p p p p p p p" "c c c c c c c c c c c c" "f f f f f f f f f f f f";
+  }
+  .footer-privacy {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 0.85em;
+}
 `

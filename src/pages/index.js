@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import Link from "gatsby-link"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -241,6 +242,18 @@ const IndexPage = ({ data }) => (
                 </a>
               )}
 
+              {configs.instagram_username && (
+                <a
+                  href={`https://instagram.com/${configs.instagram_username}`}
+                  aria-label="Instagram"
+                >
+                  <span className="fa-stack fa-1x">
+                    <i className="socialIconBack fas fa-circle fa-stack-2x" />
+                    <i className="socialIconTop fab fa-instagram fa-stack-1x" />
+                  </span>
+                </a>
+              )}
+
               {configs.email_address && (
                 <a href={`mailto:${configs.email_address}`} aria-label="Email">
                   <span className="fa-stack fa-1x">
@@ -249,6 +262,12 @@ const IndexPage = ({ data }) => (
                   </span>
                 </a>
               )}
+            </div>
+            <div className="footer-privacy">
+                <Link to="/privacy-policy">Privacy Policy</Link>
+            </div>
+            <div className="footer-privacy">
+              <Link to="/terms-and-conditions">Terms &amp; Conditions</Link>
             </div>
           </footer>
           {/*TODO: Add App Store API */}
