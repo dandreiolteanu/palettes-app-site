@@ -535,7 +535,7 @@ export default createGlobalStyle`
 
   .privacyPolicy {
     grid-area: p; 
-    color: black
+    color: ${configs.feature_title_color}
     line-height: normal;
     margin-left: 20px;
     margin-right: 20px;

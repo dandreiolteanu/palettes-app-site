@@ -9,7 +9,7 @@ module.exports = {
   path_prefix           : "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
   app_name              : "Palettes",
   app_price             : "Free",
-  app_description       : "Find the color palette from a photo and place it anywhere.",
+  app_description       : "Capture, place your color palette anywhere and share. For iPhone only.",
   app_keywords          : ["palette", "palettes", "photo editor", "get palette from image", "colors"],
 
   // Personal Info
@@ -27,41 +27,41 @@ module.exports = {
   // Features List
   features               : [
     {
-      title: "Export beautiful photos while keeping their high quality",
+      title: "High Quality",
       description:
-        "",
+        "Export beautiful photos while keeping their high quality.",
       fontawesome_icon_name: "magic",
     },
     {
-      title: "Change your App theme from one of the 5 available",
+      title: "Themes",
       description:
-        "",
+        "Change your App theme from one of the 5 available. All the themes are inspired by a shot made by us around the world.",
       fontawesome_icon_name: "adjust",
     },
     {
-      title: "Share photos on your favorite social media",
+      title: "Share",
       description:
-        "",
+        "Share your edited photo on your favorite social media in a few taps.",
       fontawesome_icon_name: "share",
     },
   ],
-  header_background             : "rgba(255, 255, 255, 0.8)",
+  header_background             : "rgba(255, 255, 255, 0.0)",
   topbar_title_color            : "#000000",
-  cover_overlay_color_rgba      : "rgba(0, 0, 0, 0.7)",
+  cover_overlay_color_rgba      : "rgba(255, 255, 255, 0.8)",
   device_color                  : "black",                          // Set to "black", "blue", "coral", "white", or "yellow"
-  body_background_color         : "#ffffff",
-  primary_text_color            : "#000",
+  body_background_color         : "#000000",
+  primary_text_color            : "#000000",
   content_width                 : "1170px",
   font                          : `"Helvetica Neue", sans-serif`,
-  link_color                    : "#1d63ea",
-  app_title_color               : "#ffffff",
-  app_price_color               : "#ffffff",
-  app_description_color         : "#ffffff",
-  feature_title_color           : "#000000",
-  feature_text_color            : "#666666",
-  feature_icons_foreground_color: "#1d63ea",
+  link_color                    : "#108AF6",
+  app_title_color               : "#000000",
+  app_price_color               : "#000000",
+  app_description_color         : "#000000",
+  feature_title_color           : "#ffffff",
+  feature_text_color            : "#757575",
+  feature_icons_foreground_color: "#108AF6",
   feature_icons_background_color: "#e6e6e6",
   social_icons_foreground_color : "#666666",
   social_icons_background_color : "#e6e6e6",
-  footer_text_color             : "#666666",
+  footer_text_color             : "#757575",
 }

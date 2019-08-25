@@ -41,10 +41,10 @@ const IndexPage = ({ data }) => (
                     </clipPath>
                   </defs>
                 </svg>
-                {/* <Img */}
-                  {/* fluid={data.headerIcon.childImageSharp.fluid} */}
-                  {/* className="headerIcon" */}
-                {/* /> */}
+                <Img
+                  fluid={data.headerIcon.childImageSharp.fluid}
+                  className="headerIcon"
+                />
               </div>
               <p className="headerName">{configs.app_name}</p>
             </Link>
@@ -119,6 +119,18 @@ const IndexPage = ({ data }) => (
                 </a>
               )}
 
+                {configs.instagram_username && (
+                <a
+                  href={`https://instagram.com/${configs.instagram_username}`}
+                  aria-label="Instagram"
+                >
+                  <span className="fa-stack fa-1x">
+                    <i className="socialIconBack fas fa-circle fa-stack-2x" />
+                    <i className="socialIconTop fab fa-instagram fa-stack-1x" />
+                  </span>
+                </a>
+              )}
+
               {configs.email_address && (
                 <a href={`mailto:${configs.email_address}`} aria-label="Email">
                   <span className="fa-stack fa-1x">
@@ -146,7 +158,7 @@ export default IndexPage
 
 export const query = graphql`
   query {
-    headerIcon: file(relativePath: { eq: "app-icon-dark-noise-512.png" }) {
+    headerIcon: file(relativePath: { eq: "icon.png" }) {
       childImageSharp {
         fluid(maxWidth: 50) {
           ...GatsbyImageSharpFluid
