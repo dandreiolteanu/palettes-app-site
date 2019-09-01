@@ -3,7 +3,7 @@ module.exports = {
   appstore_link         : "https://apps.apple.com/us/app/palettes-photo-editor/id1476831466?ls=1",                                  // Enter App Store URL.
   playstore_link        : null,                                  // Enter Google Play Store URL.
   google_analytics_ID   : null,                                        // Enter Google Analytics ID or ""
-  presskit_download_link: null,                                  // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+  presskit_download_link: "https://drive.google.com/open?id=1mYfEeE0aGVzojyyklCVS8TUQhPzSG-GN",                                  // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
   video_or_screenshot   : "screenshot",                                           // "screenshot" or "video"
   app_url               : "https://palettes.app",                            // Domain of your website without path_prefix.
   path_prefix           : "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/automatic-gatsbyjs-app-landing-page/.
